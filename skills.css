@@ -1,0 +1,101 @@
+html, body, h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+header {
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: darkred;
+}
+
+  body {
+    background-image: url(Picture/beigebg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: lightpink;
+    }
+    
+    .navbar a {
+      float: left; 
+      display: block; 
+      color: white; 
+      text-align: center; 
+      padding: 14px 20px; 
+      text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        background-color: beige;
+        color: black;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .main {
+    flex: 70%;
+    background-color: linen;
+    padding: 10px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .column.side {
+    width: 25%;
+}
+  
+  .column.middle {
+    width: 50%;
+}
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.Melayu {width: 100%; background-color: #04AA6D;}
+.English {width: 90%; background-color: #2196F3;}
+.Arabic {width: 30%; background-color: #f44336;}
+.Japanese {width: 40%; background-color: #808080;}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: brown;
+  color: aliceblue;
+  text-align: center;
+}
+

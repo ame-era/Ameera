@@ -1,0 +1,52 @@
+html, body, h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+header {
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: darkred;
+}
+
+  body {
+    background-image: url(Picture/sunset.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    .side {
+        flex: 20%;
+        background-color: lightcoral;
+        padding: 15px;
+    }
+    
+    .main {
+        flex: 70%;
+        background-color: linen;
+        padding: 20px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: lightpink;
+    }
+    
+    .navbar a {
+      float: left; 
+      display: block; 
+      color: white; 
+      text-align: center; 
+      padding: 14px 20px; 
+      text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        background-color: beige;
+        color: black;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
